@@ -1,0 +1,29 @@
+{
+  "name": "rnuk-search-highlighter",
+  "version": "1.0.0",
+  "description": "`SearchHighlight` is a React Native component that provides real-time search and text highlighting functionality for a list of items. It allows users to filter through a list based on the search input, with matching letters in the results highlighted. Additionally, it supports customizable styling and behavior.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uday1508/rnuk-search-highlighter.git"
+  },
+  "keywords": [
+    "search-highlighter",
+    "search",
+    "rn-search",
+    "react-native-searchhighlight"
+  ],
+  "author": "udaykirangurramu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uday1508/rnuk-search-highlighter/issues"
+  },
+  "homepage": "https://github.com/uday1508/rnuk-search-highlighter#readme",
+  "peerDependencies": {
+    "react": "18.3.1",
+    "react-native": "0.75.2"
+  }
+}
