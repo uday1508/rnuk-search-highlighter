@@ -2,6 +2,28 @@ import React, { useRef, useState, useMemo, useEffect } from 'react';
 import { Text, View, TextInput, FlatList, TouchableOpacity } from 'react-native';
 import PropTypes from 'prop-types';
 
+/**
+ * @typedef {Object} SearchHighlightProps
+ * @property {string[]} [data=[]] - The list of strings to be filtered and highlighted.
+ * @property {boolean} [textbox=true] - Whether to show the search text input or not.
+ * @property {string} [searchPlaceholder='Search'] - Placeholder text for the search input field.
+ * @property {Object} [highlightStyle={ backgroundColor: 'yellow' }] - Style applied to the highlighted letters.
+ * @property {Object} [containerStyle={}] - Custom styling for the main container.
+ * @property {Object} [inputContainerStyle={}] - Custom styling for the search input container.
+ * @property {Object} [inputStyle={}] - Custom styling for the search text input field.
+ * @property {Object} [listStyle={ height: 500 }] - Custom styling for the list container.
+ * @property {Object} [listContentStyle={}] - Custom styling for the content inside the list.
+ * @property {function} [renderCustomItem=null] - Optional function to render a custom item component in the list.
+ * @property {string} [placeholderTextColor='blue'] - Color of the placeholder text in the search input.
+ * @property {function} [onSelectItem=() => {}] - Callback function called when an item is selected from the list.
+ */
+
+/**
+ * A React Native component for real-time search and text highlighting.
+ * @param {SearchHighlightProps} props
+ * @returns {JSX.Element}
+ */
+
 export default function SearchHighlight({
   data =  [],
   textbox = true,
