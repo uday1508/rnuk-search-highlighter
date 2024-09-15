@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/uday1508/rnuk-search-highlighter/issues"
   },
-  "homepage": "https://github.com/uday1508/rnuk-search-highlighter#readme",
+  "homepage": "https://github.com/uday1508/rnuk-search-highlighter",
   "peerDependencies": {
     "react": "18.3.1",
     "react-native": "0.75.2"
